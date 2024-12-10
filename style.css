@@ -1,0 +1,638 @@
+body {
+    margin: 0;
+    
+
+    background-image: url(img/fondo1.jpg);
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+.textoBlanco {
+    color: white;
+}
+.contenedorGridMenuContenido {
+    width: 100%;
+    height: 100%;
+}
+
+.textoVerticalIzda {
+    writing-mode: vertical-rl; /* Escritura en vertical de derecha a izquierda */
+    transform: rotate(180deg); /* Rota el texto para que comience desde abajo */
+    text-align: center; /* Alineación de texto */
+    font-size: 24px;
+    height: 50%; /* Ajusta la altura según necesites */
+}
+.textoVerticalDcha {
+    writing-mode: vertical-rl; /* Escritura en vertical de derecha a izquierda */
+    transform: rotate(180deg); /* Rota el texto para que comience desde abajo */
+    text-align: center; /* Alineación de texto */
+    font-size: 24px;
+    height: 50%; /* Ajusta la altura según necesites */
+}
+.elementoMenuIzda {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.251);
+    border-color: white;
+    border-right: 5px solid white;
+    color: white;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100px;
+}
+.elementoMenuIzda:hover {
+    /*background-color: rgb(201, 201, 201);*/
+
+    animation-name: agrandarXIzda;
+    /* Nombre de la animación */
+    animation-duration: 0.3s;
+    /* Duración de la animación en segundos */
+}
+.elementoMenuDcha {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.251);
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100%;
+    
+    border-left: 5px solid white;
+}
+.elementoMenuDcha:hover {
+    /*background-color: rgb(201, 201, 201);*/
+
+    animation-name: agrandarXDcha;
+    /* Nombre de la animación */
+    animation-duration: 0.3s;
+    /* Duración de la animación en segundos */
+}
+@keyframes agrandarXDcha {
+    0% {
+        transform: scaleX(1) translateX(0);
+    }
+
+    /* Fotograma inicial */
+    100% {
+        transform: scaleX(1.1) translateX(-10%);
+    }
+
+    /* Fotograma final */
+}
+@keyframes agrandarXIzda {
+    0% {
+        transform: scaleX(1) translateX(0);
+    }
+
+    /* Fotograma inicial */
+    100% {
+        transform: scaleX(1.1) translateX(10%);
+    }
+
+    /* Fotograma final */
+}
+
+.contenedorGridTemas {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px;
+
+    gap: 30px;
+
+}
+.divContenedorGridTemas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.itemTema1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.itemTema1:hover {
+    transform: scale(1.1);
+}
+.itemTema2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.itemTema2:hover {
+    transform: scale(1.1);
+}
+.itemTema3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo3.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.itemTema3:hover {
+    transform: scale(1.1);
+}
+.itemTema4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo4.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.itemTema4:hover {
+    transform: scale(1.1);
+}
+.itemTema5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/fondo5.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.itemTema5:hover {
+    transform: scale(1.1);
+}
+.tituloSeleccionaTema {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
+.contenedorDivs {
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    grid-auto-rows: 100%;
+    gap: 30px;
+
+    margin: 20px;
+}
+.divContenidoGrid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 30px;
+
+    background-color: rgba(255, 255, 255, 0.192);
+    
+    
+}
+
+
+
+
+/*----------------Musica-----------------*/
+.imagenDisco {
+    width: 40%;
+    border-radius: 50%;
+
+    animation-name: girarDisco;
+    /* Nombre de la animación */
+    animation-duration: 15s;
+    /* Duración de la animación en segundos */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes girarDisco {
+    /* Fotograma inicial */
+    0% {
+        transform: rotate(0deg);
+    }
+
+    /* Fotograma final */
+    100% {
+        transform: rotate(360deg);
+    }
+
+    
+}
+.divBotonesReproductor {
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    width: 80%;
+
+}
+#botonPistaAnterior {
+   width: 40%;
+   background-image: url(img/anterior.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+   background-color: rgba(255, 255, 255, 0);
+   border-color: rgba(255, 255, 255, 0); 
+}
+#botonPistaAnterior:hover{
+    transform: scale(1.1);
+}
+.botonVacio {
+    width: 40%;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+}
+#botonPlayPause {
+    width: 40%;
+    background-image: url(img/play.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+   background-color: rgba(255, 255, 255, 0);
+   border-color: rgba(255, 255, 255, 0); 
+}
+#botonPlayPause:hover{
+    transform: scale(1.1);
+}
+#botonPistaSiguiente {
+    width: 40%;
+    background-image: url(img/siguiente.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+   background-color: rgba(255, 255, 255, 0);
+   border-color: rgba(255, 255, 255, 0); 
+}
+#botonPistaSiguiente:hover{
+    transform: scale(1.1);
+}
+.barraTiempo {
+    width: 80%;
+}
+.cajaTituloArtista {
+    width: 80%;
+}
+.textViewTituloCancion{
+    color: white;
+}
+.textViewArtistaCancion {
+    color: rgb(199, 199, 199);
+}
+/*-----------Lista de reproduccion-------*/
+.listaDeReproduccion {
+    width: 80%;
+    height: 70%;
+    overflow: auto;
+    padding: 10px;
+}
+
+/*Adapter*/
+
+.divContenidoAdapterListView {
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-auto-rows: 80px;
+    width: 100%;
+    height: 70px;    
+    background-color: rgba(255, 255, 255, 0.43);
+    align-self: center;
+    border-radius: 20px;
+
+    overflow: hidden;
+
+}
+.imageViewCancionAdapter {
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+}
+.divContenidoAdapterListView:hover {
+    transform: scale(1.03);
+}
+.divImagenAdapterListView {
+    width: 100%;
+    height: auto;
+}
+
+.divTitulosAdapterListView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    margin-left: 20px;
+
+}
+#textViewTituloAdapter {
+    margin: 0;
+    font-weight: bold
+}
+#textViewArtistaAdapter {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+/*----------------Radios-----------------*/
+
+.imagenEmisoraRadio {
+    width: 50%;
+    border-radius: 20%;
+
+    animation-name: agrandar;
+    /* Nombre de la animación */
+    animation-duration: 0.5s;
+    /* Duración de la animación en segundos */
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes agrandar {
+    /* Fotograma inicial */
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    /* Fotograma final */
+    100% {
+        transform: scale(1);
+    }
+
+    
+}
+#divListaRadios {
+    width: 80%;
+    height: 40%;
+    overflow: auto;
+    padding: 10px;
+}
+
+
+/*---------------Modal configuracion--------------*/
+.configuracion {
+    width: 80%;
+    height: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+    padding: 30px;
+}
+.contenedor-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1; /*-1*/
+    opacity: 1; /*0*/
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items:center;
+}
+
+.contenedor-modal.mostrar {
+    background-color: black;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.modal {
+    
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% auto;
+    
+    opacity: 1;
+
+    animation-name: entrarPorDerecha;
+    /* Nombre de la animación */
+    animation-duration: 2s;
+    /* Duración de la animación en segundos */
+    animation-fill-mode: forwards;
+    /* Mantiene la posición final al terminar */
+}
+@keyframes entrarPorDerecha {
+    /* Fotograma inicial */
+    0% {
+        transform: translateX(200%);
+    }
+
+    /* Fotograma final */
+    100% {
+        transform: translateX(100%);
+    }
+
+    
+}
+.elementoMenuDchaModal {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100%;
+    
+    border-left: 5px solid white;
+}
+.contenedorContenidoConfiguracion {
+    background-color: rgba(0, 0, 0, 0.288);
+    width: 100%;
+}
+
+.textViewTituloLoginModal {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+}
+.buttonCerrarModal {
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+.divBotonCerrarModal {
+    width: 100%;
+    text-align: end;
+}
+
+.divConfiguraciones {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    
+}
+.divEcualizador {
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barrasConfiguracion {
+    margin: 0;
+    width: 60%;
+    height: 12px; /* Aumentar un poco la altura para hacerla más visible */
+    background-color: #4CAF50; /* Cambiar el color de fondo a verde bonito */
+    border-radius: 50px; /* Borde redondeado */
+    outline: none; /* Quitar el borde por defecto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra sutil para darle profundidad */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+}
+
+.barrasConfiguracion::-webkit-slider-runnable-track {
+    height: 12px;
+    border-radius: 50px;
+}
+
+.barrasConfiguracion::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px; /* Tamaño del control deslizante */
+    height: 18px;
+    border-radius: 50%; /* Forma circular */
+    background-color: #ffffff; /* Color blanco para el "thumb" */
+    border: 2px solid #4CAF50; /* Borde verde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra alrededor del thumb */
+    cursor: pointer; /* Mostrar como puntero */
+    transition: background-color 0.3s, transform 0.2s ease-in-out; /* Transición suave */
+}
+
+.barrasConfiguracion::-webkit-slider-thumb:hover {
+    background-color: #81C784; /* Cambiar color al pasar el mouse por encima */
+    transform: scale(1.1); /* Aumentar ligeramente el tamaño */
+}
+
+.barrasConfiguracion::-moz-range-track {
+    height: 12px;
+    border-radius: 50px;
+}
+
+.barrasConfiguracion::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+.barrasConfiguracion::-moz-range-thumb:hover {
+    background-color: #81C784;
+    transform: scale(1.1);
+}
+
+.divNombresBarras {
+    width: 100%;
+    height: 10%;
+}
+.labelBarras {
+    width: 60%;
+    color: white; /* Color blanco para el texto */
+    font-family: 'Arial', sans-serif; /* Fuente moderna y legible */
+    font-size: 18px; /* Tamaño de fuente adecuado */
+    font-weight: bold; /* Negrita para resaltar */
+    text-transform: uppercase; /* Poner en mayúsculas para darle énfasis */
+    text-align: center; /* Centrado del texto */
+    letter-spacing: 1.5px; /* Espaciado entre las letras para hacerlo más claro */
+    padding: 10px 0; /* Espaciado superior e inferior para hacerlo más espacioso */
+    background: linear-gradient(to right, #FF7E5F, #feb47b); /* Fondo de gradiente con colores cálidos */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra sutil para dar profundidad */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para darle un toque de profundidad */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.labelBarras:hover {
+    background: linear-gradient(to right, #feb47b, #FF7E5F); /* Invertir el gradiente al pasar el ratón */
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño cuando se pasa el ratón */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Aumentar la sombra en hover */
+}
+
+
+/*--------------Formulario Registro modal------------*/
+.divContrasenyasFormRegistro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 94%;
+}
+
+/*---------------Equalizer------------------------*/
+.equalizer {
+    width: 80%;
+    height: 50%;
+}
+
+
+/*-------------------Estados de ánimo------------*/
+#desplegableOpciones {
+    width: 75%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.381);
+    border-radius: 10px;
+}
+#desplegableOpciones:hover{
+    border-color: white;
+}
+#labelTituloEstadosAnimo {
+    color: white;
+}
+.buttonPanelDeControl {
+    background-color: rgba(255, 255, 255, 0.381);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    height: 40px;
+    width: 75%;
+}
+.buttonPanelDeControl:hover{
+    background-color: white;
+}
+.buttonCerrarSesion {
+    width: 75%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.381);
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+}
+.buttonCerrarSesion:hover{
+    background-color: white;
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+    .contenedorGridMenuContenido {
+        display: block;
+        height: auto;
+    }
+    .contenedorDivs {
+        grid-template-columns: 1fr;  /* Ajuste para pantallas pequeñas */
+    }
+    .divContenidoGrid {
+        width: 100%; /* Más espacio en pantallas pequeñas */
+    }
+    .barraTiempo, .barraVolumen {
+        width: 90%; /* Asegura que las barras ocupen todo el espacio */
+    }
+}

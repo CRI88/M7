@@ -1,0 +1,16 @@
+{
+    "usuarios": [
+        {
+            "nombre": "christian",
+            "contrase\u00f1a": "$2y$10$VNmNYhUkPEvU5qoWoL.IQOUmNg5tBdH54sIL7y2I5UPYSkccNcXaa",
+            "rol": "administrador",
+            "id": "67339ec89efa1"
+        },
+        {
+            "id": "6734ddd2e9955",
+            "nombre": "toni",
+            "contrase\u00f1a": "$2y$10$d\/2z8y6iK.67b5oG5B2LQeaID.huso6x7q2u74wzg5JtsqY8WzQqW",
+            "rol": "visitante"
+        }
+    ]
+}

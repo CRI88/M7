@@ -1,0 +1,206 @@
+[
+    {
+        "idCancion": 1,
+        "titulo": "I Will Survive",
+        "artista": "Gloria Gaynor",
+        "imagen": "img/contento/IWillSurvive.png",
+        "archivo": "files/Gloria Gaynor - I Will Survive.mp3",
+        "estadoAnimo": "contento"
+    },
+    {
+        "idCancion": 2,
+        "titulo": "Girls Just Wanna Have Fun",
+        "artista": "Cyndi Lauper",
+        "imagen": "img/contento/GirlsJustWannaHaveFun.png",
+        "archivo": "files/Girls Just Want to Have Fun.mp3",
+        "estadoAnimo": "contento"
+    },
+    {
+        "idCancion": 3,
+        "titulo": "Uptown Girl",
+        "artista": "Billy Joel",
+        "imagen": "img/contento/UptownGirl.png",
+        "archivo": "files/Billy Joel - Uptown Girl (Lyrics).mp3",
+        "estadoAnimo": "contento"
+    },
+    {
+        "idCancion": 4,
+        "titulo": "Eye Of The Tiger",
+        "artista": "Survivor",
+        "imagen": "img/contento/EyeOfTheTiger.png",
+        "archivo": "files/Survivor - Eye Of The Tiger (Lyrics).mp3",
+        "estadoAnimo": "contento"
+    },
+    {
+        "idCancion": 5,
+        "titulo": "Don’t Stop Me Now",
+        "artista": "Queen",
+        "imagen": "img/contento/DontStopMeNow.png",
+        "archivo": "files/Queen - Don't Stop Me Now [Lyrics].mp3",
+        "estadoAnimo": "contento"
+    },
+
+    {
+        "idCancion": 6,
+        "titulo": "Last Resort",
+        "artista": "Papa Roach",
+        "imagen": "img/enfadado/LastResort.png",
+        "archivo": "files/Last Resort.mp3",
+        "estadoAnimo": "enfadado"
+    },
+    {
+        "idCancion": 7,
+        "titulo": "Break Stuff",
+        "artista": "Limp Bizkit",
+        "imagen": "img/enfadado/BreakStuff.png",
+        "archivo": "files/Break Stuff.mp3",
+        "estadoAnimo": "enfadado"
+    },
+    {
+        "idCancion": 8,
+        "titulo": "Duality",
+        "artista": "Slipknot",
+        "imagen": "img/enfadado/Duality.png",
+        "archivo": "files/Slipknot - Duality HQ.mp3",
+        "estadoAnimo": "enfadado"
+    },
+    {
+        "idCancion": 9,
+        "titulo": "You Oughta Know",
+        "artista": "Alanis Morissette",
+        "imagen": "img/enfadado/YouOughtaKnow.png",
+        "archivo": "files/You Oughta Know.mp3",
+        "estadoAnimo": "enfadado"
+    },
+    {
+        "idCancion": 10,
+        "titulo": "Killing in the Name",
+        "artista": "Rage Against the Machine",
+        "imagen": "img/enfadado/KillingInTheName.png",
+        "archivo": "files/Killing in the Name.mp3",
+        "estadoAnimo": "enfadado"
+    },
+
+    {
+        "idCancion": 11,
+        "titulo": "Someone Like You",
+        "artista": "Adele",
+        "imagen": "img/triste/SomeoneLikeYou.png",
+        "archivo": "files/Adele - Someone Like You (Official Music Video).mp3",
+        "estadoAnimo": "triste"
+    },
+    {
+        "idCancion": 12,
+        "titulo": "Creep",
+        "artista": "Radiohead",
+        "imagen": "img/triste/Creep.png",
+        "archivo": "files/Creep - Radiohead (Lyrics).mp3",
+        "estadoAnimo": "triste"
+    },
+    {
+        "idCancion": 13,
+        "titulo": "Hurt",
+        "artista": "Johnny Cash (cover de Nine Inch Nails)",
+        "imagen": "img/triste/Hurt.png",
+        "archivo": "files/Johnny Cash - Hurt.mp3",
+        "estadoAnimo": "triste"
+    },
+    {
+        "idCancion": 14,
+        "titulo": "The Night We Met",
+        "artista": "Lord Huron",
+        "imagen": "img/triste/TheNightWeMet.png",
+        "archivo": "files/Lord Huron - The Night We Met (Official Lyric Video).mp3",
+        "estadoAnimo": "triste"
+    },
+    {
+        "idCancion": 15,
+        "titulo": "Tears in Heaven",
+        "artista": "Eric Clapton",
+        "imagen": "img/triste/TearsInHeaven.png",
+        "archivo": "files/Eric Clapton - Tears In Heaven (Official Video).mp3",
+        "estadoAnimo": "triste"
+    },
+
+    {
+        "idCancion": 16,
+        "titulo": "Perfect",
+        "artista": "Ed Sheeran",
+        "imagen": "img/enamorado/Perfect.png",
+        "archivo": "files/Ed Sheeran - Perfect.mp3",
+        "estadoAnimo": "enamorado"
+    },
+    {
+        "idCancion": 17,
+        "titulo": "Can't Help Falling in Love",
+        "artista": "Elvis Presley",
+        "imagen": "img/enamorado/CantHelpFallingInLove.png",
+        "archivo": "files/Elvis Presley - Can't Help Falling in Love (Lyrics).mp3",
+        "estadoAnimo": "enamorado"
+    },
+    {
+        "idCancion": 18,
+        "titulo": "Make You Feel My Love",
+        "artista": "Adele",
+        "imagen": "img/enamorado/MakeYouFeelMyLove.png",
+        "archivo": "files/Adele - Make You Feel My Love (Lyrics).mp3",
+        "estadoAnimo": "enamorado"
+    },
+    {
+        "idCancion": 19,
+        "titulo": "All of Me",
+        "artista": "John Legend",
+        "imagen": "img/enamorado/AllOfMe.png",
+        "archivo": "files/John Legend - All of Me (Lyrics).mp3",
+        "estadoAnimo": "enamorado"
+    },
+    {
+        "idCancion": 20,
+        "titulo": "La Vie En Rose",
+        "artista": "Édith Piaf",
+        "imagen": "img/enamorado/LaVieEnRose.png",
+        "archivo": "files/La Vie En Rose.mp3",
+        "estadoAnimo": "enamorado"
+    },
+
+    {
+        "idCancion": 21,
+        "titulo": "Bohemian Rhapsody",
+        "artista": "Queen",
+        "imagen": "img/sorprendido/BohemianRhapsody.png",
+        "archivo": "files/Queen – Bohemian Rhapsody Lyrics.mp3",
+        "estadoAnimo": "sorprendido"
+    },
+    {
+        "idCancion": 22,
+        "titulo": "Clint Eastwood",
+        "artista": "Gorillaz",
+        "imagen": "img/sorprendido/ClintEastwood.png",
+        "archivo": "files/Gorillaz Clint Eastwood Official Video.mp3",
+        "estadoAnimo": "sorprendido"
+    },
+    {
+        "idCancion": 23,
+        "titulo": "Take On Me",
+        "artista": "A-ha",
+        "imagen": "img/sorprendido/TakeOnMe.png",
+        "archivo": "files/a ha Take On Me Official Video Remastered in 4K.mp3",
+        "estadoAnimo": "sorprendido"
+    },
+    {
+        "idCancion": 24,
+        "titulo": "Somewhere Over the Rainbow/What a Wonderful World",
+        "artista": "Israel Kamakawiwo'ole",
+        "imagen": "img/sorprendido/SomewhereOverTheRainbow.png",
+        "archivo": "files/OFFICIAL Somewhere over the Rainbow Israel IZ Kamakawiwoʻole.mp3",
+        "estadoAnimo": "sorprendido"
+    },
+    {
+        "idCancion": 25,
+        "titulo": "Feel Good Inc.",
+        "artista": "Gorillaz",
+        "imagen": "img/sorprendido/FeelGoodInc.png",
+        "archivo": "files/Gorillaz Feel Good Inc HD.mp3",
+        "estadoAnimo": "sorprendido"
+    }
+]
